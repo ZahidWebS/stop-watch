@@ -1,0 +1,73 @@
+/*  STOP WATCH PROGRAM */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 0%, 66%, 0.253);
+
+}
+
+#myH1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:hsla(0, 0%, 0%, 0.808);
+    font-weight: bold;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border:5px solid;
+    border-radius: 80px;
+}
+
+#display {
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.788);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:5px 20px;
+    max-width: 125px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition:0.5s ease;
+}
+
+#startBtn {
+    background-color: rgba(0, 128, 0, 0.692);
+}
+
+
+#startBtn:hover {
+    background-color: rgba(0, 128, 0, 0.952);
+}
+
+#resetBtn {
+    background-color: rgba(0, 0, 255, 0.664);
+}
+
+#resetBtn:hover {
+    background-color: rgba(0, 0, 255, 0.938);
+}
+
+#stopBtn {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+
+#stopBtn:hover {
+    background-color: rgba(255, 0, 0, 0.925);
+}
