@@ -19,10 +19,6 @@ A simple and responsive stopwatch built using **HTML, CSS, and JavaScript**.
 3. Press **Stop** to pause the time.
 4. Press **Reset** to set the stopwatch back to zero.
 
-
-## Live Demo
-[View the stopwatch online](https://username.github.io/stopwatch/)
-
 ## Author
 Zahid Hussain
 
